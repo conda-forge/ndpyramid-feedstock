@@ -1,5 +1,5 @@
 {% set name = "ndpyramid" %}
-{% set version = "0.0.4" %}
+{% set version = "0.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ndpyramid-{{ version }}.tar.gz
-  sha256: b234d9112a62b2ffd6c0f27fc681368abf68caea4d98f3922596100b0d43b488
+  sha256: 74772cb834ab1539ee0e8c7cde503fbf4fcf5ac54869c7cd37548d8b734858d1
 
 build:
   noarch: python
@@ -20,6 +20,7 @@ requirements:
     - python >=3.8
     - setuptools-scm
   run:
+    - cf_xarray
     - numpy
     - python >=3.8
     - xarray
@@ -43,3 +44,5 @@ about:
 extra:
   recipe-maintainers:
     - andersy005
+    - jhamman
+    - norlandrhagen
