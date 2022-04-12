@@ -20,6 +20,7 @@ requirements:
     - python >=3.8
     - setuptools-scm
   run:
+    - cf_xarray
     - numpy
     - python >=3.8
     - xarray
@@ -43,3 +44,5 @@ about:
 extra:
   recipe-maintainers:
     - andersy005
+    - jhamman
+    - norlandrhagen
