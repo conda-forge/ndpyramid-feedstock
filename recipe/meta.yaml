@@ -1,5 +1,5 @@
 {% set name = "ndpyramid" %}
-{% set version = "0.0.5" %}
+{% set version = "0.0.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ndpyramid-{{ version }}.tar.gz
-  sha256: 74772cb834ab1539ee0e8c7cde503fbf4fcf5ac54869c7cd37548d8b734858d1
+  sha256: ae515b77a4eeb7f74628686e964e75dc073ec26ffd686d1767e68693c70a61d2
 
 build:
   noarch: python
@@ -24,7 +24,7 @@ requirements:
     - numpy
     - python >=3.8
     - xarray
-    - xarray-datatree >=0.0.4
+    - xarray-datatree >=0.0.5
     - zarr
 
 test:
