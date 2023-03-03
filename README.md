@@ -145,5 +145,6 @@ Feedstock Maintainers
 
 * [@andersy005](https://github.com/andersy005/)
 * [@jhamman](https://github.com/jhamman/)
+* [@maxrjones](https://github.com/maxrjones/)
 * [@norlandrhagen](https://github.com/norlandrhagen/)
 
