@@ -1,5 +1,5 @@
 {% set name = "ndpyramid" %}
-{% set version = "0.0.6" %}
+{% set version = "0.0.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ndpyramid-{{ version }}.tar.gz
-  sha256: ae515b77a4eeb7f74628686e964e75dc073ec26ffd686d1767e68693c70a61d2
+  sha256: d4857545cd53bdd68d99674cfcaab9f547872375edb5c9caac95f0a4c2a5216b
 
 build:
   noarch: python
