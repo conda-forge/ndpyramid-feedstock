@@ -1,11 +1,11 @@
-About ndpyramid
-===============
+About ndpyramid-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ndpyramid-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/carbonplan/ndpyramid
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ndpyramid-feedstock/blob/main/LICENSE.txt)
 
 Summary: A small utility for generating ND array pyramids using Xarray and Zarr.
 
