@@ -17,14 +17,14 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python >=3.9
     - setuptools-scm
   run:
     - cf_xarray
     - numpy
-    - python >=3.8
+    - python >=3.9
     - xarray
-    - xarray-datatree >=0.0.5
+    - xarray-datatree >=0.0.11
     - zarr
 
 test:
@@ -46,3 +46,4 @@ extra:
     - andersy005
     - jhamman
     - norlandrhagen
+    - maxrjones
