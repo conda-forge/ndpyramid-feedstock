@@ -1,5 +1,5 @@
 {% set name = "ndpyramid" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ndpyramid-{{ version }}.tar.gz
-  sha256: 3e52f7654a22183b6ce9bc65ade16a042c21b62bf13e28ef15a3babac6486c79
+  sha256: ae710c646a55adf203eb6120d6e77a55949c5c8a4a79e121a22ab0d8ac163c02
 
 build:
   noarch: python
@@ -21,10 +21,10 @@ requirements:
     - setuptools-scm
   run:
     - cf_xarray
-    - pydantic>=1.10
+    - pydantic >=1.10
     - pyproj
     - python >=3.9
-    - rasterio 
+    - rasterio
     - xarray
     - xarray-datatree >=0.0.11
     - zarr
