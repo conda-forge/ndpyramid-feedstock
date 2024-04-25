@@ -21,7 +21,7 @@ requirements:
     - setuptools-scm
   run:
     - cf_xarray
-    - pydantic>=1.10
+    - pydantic >=1.10
     - pyproj
     - python >=3.9
     - rasterio
