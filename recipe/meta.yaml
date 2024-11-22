@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ndpyramid-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ndpyramid-{{ version }}.tar.gz
   sha256: e816adb537266d70375f3e64f351d7c6f094d66885262319d9f914e692e0a2fd
 
 build:
@@ -17,17 +17,15 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.9
+    - python >=3.10
     - setuptools-scm
   run:
     - cf_xarray
-    - numpy <2.0.0
     - pydantic >=1.10
     - pyproj
-    - python >=3.9
+    - python >=3.10
     - rasterio
-    - xarray
-    - xarray-datatree >=0.0.11
+    - xarray >=2024.10.0
     - zarr
 
 test:
